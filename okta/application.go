@@ -53,7 +53,7 @@ func NewApplication() *Application {
 	return &Application{}
 }
 
-func (a *Application) IsApplicationInstance() bool {
+func (a Application) IsApplicationInstance() bool {
 	return true
 }
 
