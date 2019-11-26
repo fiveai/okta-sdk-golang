@@ -18,7 +18,7 @@ _Lets get started!!!_
 Fork the code
 -------------
 
-In your browser, navigate to: [https://github.com/okta/okta-sdk-golang](https://github.com/okta/okta-sdk-golang)
+In your browser, navigate to: [https://github.com/fiveai/okta-sdk-golang](https://github.com/fiveai/okta-sdk-golang)
 
 Fork the repository by clicking on the 'Fork' button on the top right hand side.  The fork will happen and you will be taken to your own fork of the repository.  Copy the Git repository URL by clicking on the clipboard next to the URL on the right hand side of the page under '**HTTPS** clone URL'.  You will paste this URL when doing the following `git clone` command.
 
@@ -27,7 +27,7 @@ On your computer, follow these steps to setup a local repository for working on 
 ``` bash
 $ git clone https://github.com/YOUR_ACCOUNT/okta-sdk-golang.git
 $ cd okta-sdk-golang
-$ git remote add upstream https://github.com/okta/okta-sdk-golang.git
+$ git remote add upstream https://github.com/fiveai/okta-sdk-golang.git
 $ git checkout master
 $ git fetch upstream
 $ git rebase upstream/master

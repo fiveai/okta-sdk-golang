@@ -23,7 +23,7 @@ import (
 
 	"github.com/jarcoal/httpmock"
 
-	"github.com/okta/okta-sdk-golang/okta"
+	"github.com/fiveai/okta-sdk-golang/okta"
 )
 
 func NewClient(conf ...okta.ConfigSetter) (*okta.Client, error) {

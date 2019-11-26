@@ -1,7 +1,7 @@
 [<img src="https://devforum.okta.com/uploads/oktadev/original/1X/bf54a16b5fda189e4ad2706fb57cbb7a1e5b8deb.png" align="right" width="256px"/>](https://devforum.okta.com/)
-[![Build Status](https://img.shields.io/travis/okta/okta-sdk-golang.svg?logo=travis)](https://travis-ci.org/okta/okta-sdk-golang)
+[![Build Status](https://img.shields.io/travis/fiveai/okta-sdk-golang.svg?logo=travis)](https://travis-ci.org/fiveai/okta-sdk-golang)
 ![Beta Release](https://img.shields.io/badge/Beta-Unstable-yellow.svg)
-[![License](https://img.shields.io/github/license/okta/okta-sdk-golang.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/github/license/fiveai/okta-sdk-golang.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Support](https://img.shields.io/badge/support-Developer%20Forum-blue.svg)][devforum]
 [![API Reference](https://img.shields.io/badge/docs-reference-lightgrey.svg)][sdkapiref]
 
@@ -24,7 +24,7 @@ This repository contains the Okta management SDK for Golang. This SDK can be use
 
 We also publish these libraries for Golang:
 
-* [JWT Verifier](https://github.com/okta/okta-jwt-verifier-golang)
+* [JWT Verifier](https://github.com/fiveai/okta-jwt-verifier-golang)
 
 You can learn more on the [Okta + Golang](lang-landing) page in our documentation.
 
@@ -34,8 +34,8 @@ This library uses semantic versioning and follows Okta's [library version policy
 
 | Version | Status                    |
 | ------- | ------------------------- |
-| 0.x     |  ⚠️ Beta Release (Retired)|
-| 1.x     |  ✔️ Release               |
+| 0.x     | ⚠️ Beta Release (Retired) |
+| 1.x     | ✔️ Release                |
 
 The latest release can always be found on the [releases page][github-releases].
 
@@ -48,7 +48,7 @@ If you run into problems using the SDK, you can
 
 ## Getting started
 
-To install the Okta Golang SDK in your project, run `go get github.com/okta/okta-sdk-golang/okta`
+To install the Okta Golang SDK in your project, run `go get github.com/fiveai/okta-sdk-golang/okta`
 
 You'll also need
 
@@ -353,7 +353,7 @@ return authServer, resp, nil
 
 This library looks for configuration in the following sources:
 
-0. An `okta.yaml` file in a `.okta` folder in the current user's home directory (`~/.okta/okta.yaml` or `%userprofile\.okta\okta.yaml`)
+0. An `okta.yaml` file in a `.okta` folder in the current user's home directory (`~/.fiveai/okta.yaml` or `%userprofile\.okta\okta.yaml`)
 0. An `okta.yaml` file in a `.okta` folder in the application or project's root directory
 0. Environment variables
 0. Configuration explicitly passed to the constructor (see the example in [Getting started](#getting-started))
@@ -398,7 +398,7 @@ We're happy to accept contributions and PRs! Please see the [contribution guide]
 
 
 [devforum]: https://devforum.okta.com/
-[sdkapiref]: https://godoc.org/github.com/okta/okta-sdk-golang/okta
+[sdkapiref]: https://godoc.org/github.com/fiveai/okta-sdk-golang/okta
 [lang-landing]: https://developer.okta.com/code/golang/
 [github-issues]: /issues
 [github-releases]: /releases

@@ -111,7 +111,7 @@ function getImports(object) {
   if (object.model.methods !== undefined) {
     for (let method of object.model.methods) {
       if(method.operation.queryParams.length) {
-        imports.push("github.com/okta/okta-sdk-golang/okta/query")
+        imports.push("github.com/fiveai/okta-sdk-golang/okta/query")
       }
       imports.push("fmt");
       if (method.operation.responseModel !== undefined) {
@@ -127,7 +127,7 @@ function getImports(object) {
   if (object.model.crud !== undefined) {
     for (let method of object.model.crud) {
       if(method.operation.queryParams.length) {
-        imports.push("github.com/okta/okta-sdk-golang/okta/query")
+        imports.push("github.com/fiveai/okta-sdk-golang/okta/query")
       }
       imports.push("fmt");
       if (method.operation.responseModel !== undefined) {
@@ -141,7 +141,7 @@ function getImports(object) {
   }
 
   if (object.model.modelName === "LogEvent") {
-    imports.push("github.com/okta/okta-sdk-golang/okta/query")
+    imports.push("github.com/fiveai/okta-sdk-golang/okta/query")
     imports.push("fmt")
   }
 
@@ -340,7 +340,7 @@ golang.process = ({ spec, operations, models, handlebars }) => {
 
   templates.push({
     src: 'templates/okta.go.hbs',
-    dest: 'okta/okta.go',
+    dest: 'fiveai/okta.go',
     context: {
       "operations": operations,
       "models": models

@@ -23,7 +23,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/okta/okta-sdk-golang/okta/cache"
+	"github.com/fiveai/okta-sdk-golang/okta/cache"
 
 	"github.com/stretchr/testify/assert"
 )

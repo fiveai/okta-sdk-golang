@@ -24,7 +24,7 @@ import (
 	"io/ioutil"
 	"os/user"
 
-	"github.com/okta/okta-sdk-golang/okta/cache"
+	"github.com/fiveai/okta-sdk-golang/okta/cache"
 
 	"github.com/go-yaml/yaml"
 	"github.com/kelseyhightower/envconfig"
@@ -150,7 +150,7 @@ func readConfigFromSystem(c config) *config {
 		return &c
 	}
 
-	conf, err := readConfigFromFile(currUser.HomeDir + "/.okta/okta.yaml")
+	conf, err := readConfigFromFile(currUser.HomeDir + "/.fiveai/okta.yaml")
 
 	if err != nil {
 		return &c

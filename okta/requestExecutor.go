@@ -30,7 +30,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/okta/okta-sdk-golang/okta/cache"
+	"github.com/fiveai/okta-sdk-golang/okta/cache"
 )
 
 type RequestExecutor struct {

@@ -24,10 +24,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/okta/okta-sdk-golang/okta"
+	"github.com/fiveai/okta-sdk-golang/okta"
 
 	"github.com/jarcoal/httpmock"
-	"github.com/okta/okta-sdk-golang/tests"
+	"github.com/fiveai/okta-sdk-golang/tests"
 )
 
 func Test_429_Will_Automatically_Retry(t *testing.T) {
